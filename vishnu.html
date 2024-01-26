@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task</title>
+    <link rel="stylesheet" href="./vishnu.css">
+   
+</head>
+<body>
+    <h1 id="header">Form Task</h1>
+
+    <form action="submit.php" method="post" id="form">
+        
+        <div>
+            <label for="salutation" style="margin-right: 176px;">Salutation:</label><br>
+            <select id="salutation" name="salutation" style="margin-right: 160px;">
+                <option value="non">None</option>
+                <option value="hg">Hello..</option>
+                <option value="wel">Welcome !</option>
+                <option value="Thanks">Thanks</option>
+            </select><br><br>
+            <label for="name">First name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your first name"><br><br>
+            <label for="name">Last name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your last name"><br><br>
+            <label for="email" style="padding-right: 29px;">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email"><br><br>
+            <label for="date" style="padding-left: 70px;">Date of birth:</label>
+            <input type="date" id="date" name="date" style="margin-right: 110px;"><br><br>
+            
+            
+        </div>
+        
+        <label id="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        
+        
+        <input type="hidden" name="hiddenField" value="contact us">
+        
+        <label for="comments" style="padding-right: 170px;">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40" style="margin-left: 75px;";></textarea><br><br>
+        
+        
+        <input type="submit" value="Submit"><br><br>
+    </form>
+</body>
+</html>
+
+   
